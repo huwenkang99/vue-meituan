@@ -1,0 +1,69 @@
+Arguments: 
+  D:\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js add @babel/polyfill
+
+PATH: 
+  D:\xftp6\;D:\Xshell6\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;D:\anaconda\Scripts;d:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Windows\System32;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\WinSCP\WinSCP\;D:\Java\jre1.8.0_144\bin;D:\apache-tomcat-8.0.53\bin;D:\apache-tomcat-8.0.53\lib;D:\MATLAB2018\runtime\win64;D:\MATLAB2018\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\SPSSModeler18\ext\bin\spss.TMWBServer\bin;D:\Program Files\SPSSModeler18\MPICH2\bin;D:\Program Files\SPSSModeler18\TABI;D:\Program Files\gpg4win\..\GnuPG\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Git\Git\cmd;D:\nodejs\node_global;D:\nodejs;D:\nodejs\;D:\Program Files\IBMRationalRose\workspace\common;D:\python\Scripts\;D:\python\;C:\Users\胡文康\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;D:\anaconda\Scripts;";D:\Java\jdk1.8.0_144\bin;";nodejs\node_global;D:\VSCode\Microsoft VS Code\bin;D:\Java\maven\apache-maven-3\apache-maven-3.6.2\bin;D:\nodejs;D:\nodejs\node_global;D:\idea\idea2019\IntelliJ IDEA 2019.3.1\bin;;C:\Users\胡文康\AppData\Roaming\npm;
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\胡文康\AppData\Local\Yarn\Cache\v4\npm-locate-path-2.0.0-2b568b265eec944c6d9c0de9c3dbbbca0354cd8e\node_modules\locate-path\license' -> 'D:\workspace\my-project\test\webpack-demo01\node_modules\pkg-up\node_modules\locate-path\license'
+
+npm manifest: 
+  {
+    "name": "webpack-demo01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --config webpack.config.js",
+      "dev": "webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@babel/plugin-proposal-class-properties": "^7.8.3",
+      "@babel/plugin-proposal-decorators": "^7.8.3",
+      "@babel/plugin-syntax-decorators": "^7.8.3",
+      "@babel/plugin-transform-runtime": "^7.9.0",
+      "@babel/preset-env": "^7.9.0",
+      "autoprefixer": "^9.7.5",
+      "babel-loader": "^8.1.0",
+      "browserslist": "^4.11.1",
+      "css-loader": "^3.4.2",
+      "html-webpack-plugin": "^4.0.4",
+      "less": "^3.11.1",
+      "less-loader": "^5.0.0",
+      "mini-css-extract-plugin": "^0.9.0",
+      "optimize-css-assets-webpack-plugin": "^5.0.3",
+      "postcss-loader": "^3.0.0",
+      "style-loader": "^1.1.3",
+      "uglifyjs-webpack-plugin": "^2.2.0",
+      "webpack": "^4.42.1",
+      "webpack-cli": "^3.3.11",
+      "webpack-dev-server": "^3.10.3"
+    },
+    "browserslist": [
+      "last 1 version",
+      "> 1%",
+      "IE 10"
+    ],
+    "dependencies": {
+      "@babel/runtime": "^7.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

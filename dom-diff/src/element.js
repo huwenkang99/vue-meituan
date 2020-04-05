@@ -1,9 +1,9 @@
 // 虚拟DOM元素的类
 class Element{
   constructor(type, props, children){
-    this.type = type;
-    this.props = props;
-    this.children = children;
+    this.type = type;//类型：ul、li、div等
+    this.props = props;//class
+    this.children = children;//子结点
   }
 }
 
